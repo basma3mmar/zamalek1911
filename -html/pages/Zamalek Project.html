@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zamalek</title>
+    <link rel="stylesheet" href="1.css">
+
+    <!-- نزول ناعم -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .more-info{
+            text-align: center;
+            color: white;
+            margin: 50px 0;
+            font-size: 18px;
+        }
+
+        .more-info a{
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .more-info a:hover{
+            background: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="basma">
+
+        <!-- Navbar -->
+        <header>
+            <a href="#" class="logo">𝔃𝓪𝓶𝓪𝓵𝓮𝓴</a>
+
+            <ul>
+                <li><a href="#">𝕳𝖔𝖒𝖊</a></li>
+                <li><a href="#" id="openVideoLink">𝖛𝖎𝖉𝖊𝖔𝖘</a></li>
+                <li><a href="#photos">𝖕𝖍𝖔𝖙𝖔𝖘</a></li>
+
+                <!-- ABOUT ينزل لآخر الصفحة -->
+                <li><a href="#wiki">𝖆𝖇𝖔𝖚𝖙</a></li>
+            </ul>
+        </header>
+
+        <!-- النص -->
+        <div class="roqia">
+            <h2>𝓩𝓪𝓶𝓪𝓵𝓮𝓴</h2>
+
+            <p>
+                Zamalek SC is not just a club; it’s a legacy of pride,
+                passion, and greatness. <br><br>
+
+                Zamalek’s white jersey shines with history, honor,
+                and unforgettable victories. <br><br>
+
+                Supporting Zamalek means believing in strength,
+                loyalty, and champions’ spirit. <br><br>
+
+                From Cairo to the world, Zamalek’s name echoes with pride.
+                <br><br>
+
+                Zamalek is where talent meets ambition and legends are born.
+                <br><br>
+
+                Zamalek doesn’t just play football; it creates moments
+                that live forever.
+            </p>
+
+            <!-- زر الفيديو -->
+            <button id="openVideo">Watch Fans 🎥</button>
+
+            <!-- Popup الفيديو -->
+            <div class="popup" id="videoPopup">
+                <div class="popup-content">
+                    <span id="closeVideo">&times;</span>
+
+                    <video id="myVideo">
+                        <source src="./Download.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- الجاليري -->
+        <div class="gallery" id="photos">
+
+            <div class="card">
+                <img src="./بيزيرا.jpeg">
+                <h3>⚽️ Bezera</h3>
+                <p>A creative winger with exceptional vision and smart decision-making.</p>
+            </div>
+
+            <div class="card">
+                <img src="./منسي.webp">
+                <h3>⚽️ Mansy</h3>
+                <p>A fast striker who presses hard and creates constant danger in attack.</p>
+            </div>
+
+            <div class="card">
+                <img src="./فتوح.jfif">
+                <h3>⚽️ Fatoh</h3>
+                <p>An attacking full-back known for powerful runs and accurate crosses.</p>
+            </div>
+
+            <div class="card">
+                <img src="./السعيد.jpg">
+                <h3>⚽️ Al-Saeed</h3>
+                <p>A midfield leader with experience, calmness, and perfect passing control.</p>
+            </div>
+
+            <div class="card">
+                <img src="./الونش.jpg">
+                <h3>⚽️ El-Wensh</h3>
+                <p>A strong defender who leads the backline with confidence and authority.</p>
+            </div>
+
+            <div class="card">
+                <img src="./عبمجيد.jpg">
+                <h3>⚽️ Abdel-Meguid</h3>
+                <p>A sharp forward with great positioning and finishing ability inside the box.</p>
+            </div>
+
+            <div class="card">
+                <img src="./الدباغ.jfif">
+                <h3>⚽️ El-Dabbagh</h3>
+                <p>A striker with quick reactions and strong goal-scoring instinct.</p>
+            </div>
+
+            <div class="card">
+                <img src="./صبحي.jpg">
+                <h3>⚽️ Sobhi</h3>
+                <p>A reliable goalkeeper who brings stability and confidence to the defense.</p>
+            </div>
+
+            <div class="card">
+                <img src="./عواد.jpg">
+                <h3>⚽️ Awad</h3>
+                <p>A goalkeeper with sharp reflexes and excellent shot-stopping ability.</p>
+            </div>
+
+            <div class="card">
+                <img src="./المهدي.jfif">
+                <h3>⚽️ El-Mehdi</h3>
+                <p>A solid defender known for discipline, tackling, and smart positioning.</p>
+            </div>
+
+        </div>
+
+        <!-- 🔥 آخر الصفحة (ويكيبيديا) -->
+        <div class="more-info" id="wiki">
+            <p>
+                𝕀𝕗 𝕪𝕠𝕦 𝕨𝕒𝕟𝕥 𝕞𝕠𝕣𝕖 𝕚𝕟𝕗𝕠𝕣𝕞𝕒𝕥𝕚𝕠𝕟 𝕒𝕓𝕠𝕦𝕥 ℤ𝕒𝕞𝕒𝕝𝕖𝕜 𝕊ℂ, 𝕔𝕝𝕚𝕔𝕜 𝕓𝕖𝕝𝕠𝕨:
+            </p>
+
+            <a href="https://en.wikipedia.org/wiki/Zamalek_SC" target="_blank">
+                👉 Visit Wikipedia Page
+            </a>
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        let openBtn = document.getElementById("openVideo");
+        let openLink = document.getElementById("openVideoLink");
+        let popup = document.getElementById("videoPopup");
+        let closeBtn = document.getElementById("closeVideo");
+        let video = document.getElementById("myVideo");
+
+        function openVideo(){
+            popup.style.display = "flex";
+            video.currentTime = 0;
+            video.play();
+        }
+
+        function closeVideo(){
+            popup.style.display = "none";
+            video.pause();
+        }
+
+        openBtn.onclick = openVideo;
+
+        openLink.onclick = (e) => {
+            e.preventDefault();
+            openVideo();
+        }
+
+        closeBtn.onclick = closeVideo;
+
+        popup.onclick = (e) => {
+            if(e.target === popup){
+                closeVideo();
+            }
+        }
+    </script>
+
+</body>
+</html>

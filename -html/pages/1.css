@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(pink,rgba(128, 128, 128, 0.281));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+.basma{
+    background-image: linear-gradient(pink,rgba(128, 128, 128, 0.226)),
+    url(./رقم\ 1.jpg)
+    ;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent ;
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+.roqia{
+    color: white;
+    width: 50%;
+    
+
+}
+.roqia h2{
+    font-size: 100px;
+}
+.roqia p{
+    letter-spacing: 3px;
+    padding: 20px;
+}
+.roqia button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.roqia button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.roqia{
+    color: white;
+    transition: 0.3s;
+}
+
+.roqia:hover{
+    text-shadow: 0 0 10px red,
+                 0 0 20px red,
+                 0 0 40px red ;
+}
+.basma{
+    background-image: url("./رقم 1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* ده السحر 🔥 */
+}
+.basma{
+    background-image:
+        radial-gradient(
+            circle at center,
+            rgba(255,255,255,0.8) 0%,
+            rgba(255,255,255,0.3) 30%,
+            rgba(255,105,180,0.4) 60%,
+            rgba(128,128,128,0.3) 100%
+        ),
+        url("./رقم 1.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 50px;
+}
+.card{
+    width: 250px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card h3{
+    margin: 10px 0 5px;
+}
+
+.card p{
+    font-size: 14px;
+    padding: 0 10px 15px;
+}
+.card h3{
+    transition: 0.3s;
+}
+
+.card:hover h3{
+    text-shadow: 0 0 5px rgb(10, 6, 0) ,
+                 0 0 15px rgb(7, 0, 0) ,
+                 0 30px 25px rgb(8, 0, 0) ;
+}
+.card:hover p{
+    text-shadow: 0 0 5px rgb(12, 1, 1) ,
+                 0 0 15px rgb(7, 0, 0) ,
+                 0 30px 25px rgb(12, 0, 0) ;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    background: black;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.popup video{
+    width: 500px;
+    border-radius: 10px;
+}
+
+#closeVideo{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.more-info p{
+    color: white;
+    text-shadow: 0 0 5px #a020f0,
+                 0 0 15px #a020f0,
+                 0 0 30px #a020f0,
+                 0 0 50px #a020f0;
+}
